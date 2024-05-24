@@ -1,0 +1,47 @@
+*{
+    background-color: #FFF9D0;
+}
+.container{
+    margin-left: 105px;
+    margin-right: 105px;
+    margin-top: 42px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.image{
+    display: flex;
+}
+.topic{
+        align-self: center;
+        margin-left: 77px;
+}
+#img{
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 280px;
+}
+#title{
+    margin: 20px;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-end-end-radius: 20px;
+    padding: 10px;
+    background-color: #5AB2FF;
+}
+#caption{
+    margin: 20px;
+    background-color: #A0DEFF;
+}
+.tribute-info{
+    margin-bottom: 42px;
+}
+p{
+    margin: 50px;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: #CAF4FF;
+}
+.more-info{
+    margin: 50px;
+    text-align: center;
+}
