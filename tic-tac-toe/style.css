@@ -29,4 +29,16 @@ body{
   height: 18vmin;
   width: 18vmin;
   border-radius: 1rem;
+  border: 1px solid black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}
+
+#reset{
+  padding: 10px;
+  font-size: 1.25rem;
+  background-color: rgb(25, 100, 100);
+  color: whitesmoke;
+  border-radius: 0.8rem;
+  border-color: #b6c2c9;
 }
