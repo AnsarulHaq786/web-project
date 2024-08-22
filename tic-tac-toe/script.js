@@ -42,7 +42,6 @@ const resetGame=()=>{
     }
 )}
 const winner=(p1)=>{
-    const msg = document.querySelector(".msg");
     container.style.display='none';
     if(count==9){
         msg.innerText = `Draw : you both played well!`
