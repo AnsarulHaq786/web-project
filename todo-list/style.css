@@ -8,14 +8,14 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #A3B08D, #C6AD94);
+    background: linear-gradient(135deg, #A3B08D, #a7917b);
     padding: 10px;
 }
 
 .todo-app{
     width: 100%;
     max-width: 540px;
-    background-color: #fff;
+    background-color: #c7a5f0;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 15px;
@@ -37,11 +37,46 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: azure;
+    background-color: rgb(223, 226, 226);
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
 }
+
 input{
     flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 16px;
+}
+
+button{
+    border: none;
+    outline: none;
+    width: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 12px 8px 12px 40px;
+    user-select: none;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(src/images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
 }
