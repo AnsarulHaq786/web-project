@@ -58,6 +58,11 @@ button{
     width: 50px;
     margin-left: 15px;
     cursor: pointer;
+    background: transparent;
+}
+
+button img{
+    padding-top: 7px;
 }
 
 ul li{
@@ -66,6 +71,12 @@ ul li{
     padding: 12px 8px 12px 40px;
     user-select: none;
     position: relative;
+    justify-content: center;
+}
+
+ul li:hover{
+    background-color: #A3B08D;
+    border-radius: 8px;
 }
 
 ul li::before{
@@ -88,4 +99,21 @@ ul li.checked{
 
 ul li.checked::before{
     background-image: url(src/images/checked.png);
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #ff0000;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background-color: #939591;
 }
