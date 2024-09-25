@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 id="title">Survey Form</h1>
+                <p id="description">This survey form consists necessary constraints for the submission of code to free code camp's responsive web design certification</p>
+            </header>
+            <form id="survey-form">
+            <div class="form-type">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter name here!" required>
+            </div>
+            <div class="form-type">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter email here!" required>
+            </div>
+            <div class="form-type">
+                <label for="number" id="number-label">Favourite Number</label>
+                <input type="number" name="number" id="number" min="03" max="11">
+            </div>
+            <div class="form-type">
+                <p>Favourite Fruits</p>
+                <select id="dropdown">
+                    <option disabled="" selected="" value="">Select fruit</option>
+                    <option value="apple">Apple</option>
+                    <option value="mango">Mango</option>
+                    <option value="orange">Orange</option>
+                </select>
+            </div>
+            <div class="form-type">
+                <p>Gender</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="form-type">
+                <p>Favourite Subjects</p>
+                <input type="checkbox" name="subject" id="english">
+                <label for="english">English</label>
+                <input type="checkbox" name="subject" id="maths">
+                <label for="maths">Maths</label>
+                <input type="checkbox" name="subject" id="science">
+                <label for="science">Science</label>
+            </div>
+            <div class="form-type">
+                <label for="feedback">Feedback</label>
+                <input type="textarea" id="feedback" name="feedback">
+            </div>
+            <div class="form-type">
+                <input type="submit" id="submit" value="submit">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
