@@ -1,0 +1,12 @@
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightblue;
+    }
+}
+#projects {
+    display: flex;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+}
