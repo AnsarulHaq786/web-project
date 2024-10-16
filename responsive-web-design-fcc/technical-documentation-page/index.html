@@ -1,0 +1,94 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta author="unknown" description="technical documentation page">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+    <nav id="navbar">
+        <header>C Documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Hello_World" class="nav-link">Hello World
+        </a>
+        <a href="#Main_Function" class="nav-link">Main Function</a>
+        <a href="#Return_Statement" class="nav-link">Return Statement</a>
+        <a href="#Conclusion" class="nav-link">Conclusion</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header id="header">Introduction</header>
+            <p id="para1">C is a general-purpose programming language developed in the early 1970s. It has since become one of the most widely used languages for system and application software.</p>
+            <p id="para2">The C language allows for low-level memory manipulation and is often used in developing operating systems, embedded systems, and high-performance applications.</p>
+            <ul>
+            <li>C was created by Dennis Ritchie at Bell Labs.</li>
+            <li>It is known for its efficiency and control over system resources.</li>
+            </ul>
+            <code id="cod">// Simple C code
+#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Hello, C!\n");
+    return 0;
+}
+</code>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header id="header">Hello World</header>
+            <p id="para1">The "Hello, World!" program is traditionally the first program a beginner writes when learning a new language.</p>
+            <p id="para2">It demonstrates the basic structure of a C program, including headers, the `main` function, and output.</p>
+            <ul>
+            <li>The `#include &lt;stdio.h&gt;` line includes the standard input-output library.</li>
+            <li>The `printf` function prints the message "Hello, World!" to the console.</li>
+            </ul>
+            <code id="cod">// Hello World Program
+#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+</code>
+        </section>
+        <section class="main-section" id="Main_Function">
+            <header id="header">Main Function</header>
+            <p id="para1">The `main` function is the entry point of any C program. Execution starts from this function.</p>
+            <p id="para2">In most cases, the `main` function returns an integer value to the operating system, typically `0` for successful execution.</p>
+            <ul>
+            <li>Every C program must have a `main` function.</li>
+            <li>It is possible to pass arguments to `main` using command-line arguments.</li>
+            </ul>
+            <code id="cod">// Example main function
+int main() {
+    // Code to be executed
+    return 0;
+}
+</code>
+        </section>
+        <section class="main-section" id="Return_Statement">
+            <header id="header">Return Statement</header>
+            <p id="para1">The `return` statement is used to exit a function and return a value to the calling function or the operating system.</p>
+            <p id="para2">In the `main` function, returning `0` signifies successful program execution, while other values may indicate different types of errors.</p>
+            <ul>
+            <li>The return type of `main` is typically `int` (integer).</li>
+            <li>A non-zero return value can be used to signal an error.</li>
+            </ul>
+            <code id="cod">// Return statement example
+return 0;
+</code>
+        </section>
+        <section class="main-section" id="Conclusion">
+            <header id="header">Conclusion</header>
+            <p id="para1">C remains one of the most important and widely used programming languages today due to its performance, portability, and control over system resources.</p>
+            <p id="para2">Understanding the basics of C is essential for mastering other languages, as many modern languages derive their syntax and structure from C.</p>
+            <ul>
+            <li>C is foundational in learning system-level programming.</li>
+            <li>It is widely used in developing performance-critical applications.</li>
+            </ul>
+            <code id="cod">// End of documentation
+</code>
+        </section>
+    </main>
+</body>
+</html>
