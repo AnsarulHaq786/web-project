@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Popins, 'sans-serif';
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: wrap;
+}
+
+.music-player{
+    width: 400px;
+    padding: 25px 35px;
+    background: #ffe0e5;
+    align-items: center;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: white;
+    color: #f53192;
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);   
+}
+
+.song-img{
+    width: 220px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);   
+}
+
+.music-player h1{
+    font-size: 25px;
+    font-weight: 300;
+    font-style: oblique;
+    color: #333;
+    margin-top: 20px;
+}
+
+.music-player p{
+    font-size: 14px;
+    font-weight: 200;
+    color: #333;
+    margin-top: 15px;
+}
+
+#progress{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background: #f53192;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 15px 5px 0;
+}
+
+#progress::-moz-range-thumb {
+    background: #ff79bc;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 
+        0 2px 5px rgba(256, 26, 26, 0.3),
+        10px 0 4px rgba(256, 26, 26, 0.3),
+        -10px 0 4px rgba(256, 26, 26, 0.3),
+        0 -2px 5px rgba(256, 26, 26, 0.3)
+    ;
+}
+
+.timeline{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.timeline .box{
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    background: white;
+    color: #f53192;
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);   
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls div{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #f53192;
+    box-shadow: 0 2px 5px rgba(255, 26, 26, 0.22);
+    cursor: pointer;
+}
+
+.controls div:nth-child(2){
+    transform: scale(1.5);
+    background-color: #f53192;
+    color: white;
+}
