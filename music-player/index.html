@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d7f616fc24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="media/thumbnail.png" class="song-img">
+            <h1>Gantabya</h1>
+            <p>Ghanshyam Ghimire - Sagar Poudel</p>
+            <audio id="song">
+                <source src="media/geet.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="timeline">
+                <div class="box">00:00</div>
+                <div class="box" id="end"></div>
+            </div>
+            <div class="controls">
+                    <div onclick="backward()"><i class="fa-solid fa-backward" id="backwardIcon"></i></div>
+                    <div onclick="playPause()"><i class="fa-solid fa-play" id="playPauseIcon"></i></div>
+                    <div onclick="forward()"><i class="fa-solid fa-forward" id="forwardIcon"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
