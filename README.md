@@ -6,3 +6,5 @@
 [Password Generator](https://ansarulhaq786.github.io/web-project/random-password-generator/)<br><br>
 [QR Code Generator](https://ansarulhaq786.github.io/web-project/qr-code-generator/)<br><br>
 [Music Player](https://ansarulhaq786.github.io/web-project/music-player/)<br><br>
+[Basic Calculator](https://ansarulhaq786.github.io/web-project/calculator/)<br><br>
+[Password View Toggle](https://ansarulhaq786.github.io/web-project/toggle-password-veiw/)<br><br>
