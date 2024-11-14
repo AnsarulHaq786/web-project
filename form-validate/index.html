@@ -9,25 +9,31 @@
 </head>
 <body>
     <div class="container">
-        <form>
+        <span id="feed">Thank you for submission!</span>
+        <form id="form">
             <i class="fas fa-paper-plane"></i>
             <div class="input-group">
                 <label>Full Name</label>
-                <input type="text" placeholder="Enter your name">
+                <input type="text" placeholder="Enter your name" id="name-input" onkeyup="handleName()">
+                <span id="name-error"></span>
             </div>
             <div class="input-group">
                 <label>Phone No.</label>
-                <input type="tel" placeholder="123 456 7890">
+                <input type="tel" placeholder="123 456 7890" id="phone-input" onkeyup="handlePhone()">
+                <span id="phone-error"></span>
             </div>
             <div class="input-group">
                 <label>Email Id</label>
-                <input type="email" placeholder="Enter you email">
+                <input type="email" placeholder="Enter you email" id="email-input" onkeyup="handleEmail()">
+                <span id="email-error"></span>
             </div>
             <div class="input-group">
                 <label>Your Messege</label>
-                <textarea rows="5" placeholder="Enter your messege"></textarea>
+                <textarea rows="5" placeholder="Enter your messege" id="messege-input" onkeyup="handleMessege()"></textarea>
+                <span id="messege-error"></span>
             </div>
-            <button>Submit</button>
+            <button onclick="return validateForm()">Submit</button>
+            <span id="submit-error"></span>
         </form>
         <script src="script.js"></script>
     </div>
