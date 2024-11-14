@@ -24,6 +24,20 @@
     position: relative;
 }
 
+#feed{
+    display: none;
+    background: #fff;
+    color: rgb(25, 25, 145);
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
 .fa-paper-plane{
     position: absolute;
     top: 0;
@@ -72,4 +86,16 @@ form button{
     cursor: pointer;
     display: block;
     margin: 30px auto 10px;
+}
+
+#submit-error, .input-group span{
+    color: rgb(255, 67, 67);
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+}
+
+.input-group span i{
+    color: seagreen;
 }
