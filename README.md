@@ -8,3 +8,5 @@
 [Music Player](https://ansarulhaq786.github.io/web-project/music-player/)<br><br>
 [Basic Calculator](https://ansarulhaq786.github.io/web-project/calculator/)<br><br>
 [Password View Toggle](https://ansarulhaq786.github.io/web-project/toggle-password-veiw/)<br><br>
+[Regex Form Validation](https://ansarulhaq786.github.io/web-project/form-validate/)<br><br>
+[Kagazpatra Newsletter Subscription](https://ansarulhaq786.github.io/web-project/kagazpatra-newsletter-subscription)<br><br>
