@@ -11,3 +11,4 @@
 [Regex Form Validation](https://ansarulhaq786.github.io/web-project/form-validate/)<br><br>
 [Kagazpatra Newsletter Subscription](https://ansarulhaq786.github.io/web-project/kagazpatra-newsletter-subscription)<br><br>
 [Text To Speech](https://ansarulhaq786.github.io/web-project/text-to-speech)<br><br>
+[Background Animation](https://ansarulhaq786.github.io/web-project/background-animation)<br><br>
