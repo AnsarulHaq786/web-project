@@ -1,0 +1,129 @@
+:root {
+
+--color-lightblue: #457b9d;  --color-skywhite: #e6f2ff;
+--color-white: #fff;
+--color-bluei: #1a5f7a;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-skywhite);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: var(--color-white);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#title {
+  color: var(--color-bluei);
+  margin-bottom: 10px;
+}
+
+#description {
+  color: var(--color-lightblue);
+}
+
+.form-type {
+  margin-bottom: 20px;
+}
+
+.form-type input[type="radio"],
+.form-type input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form-type label[for="male"],
+.form-type label[for="female"],
+.form-type label[for="english"],
+.form-type label[for="maths"],
+.form-type label[for="science"] {
+  display: inline-block;
+  margin-right: 20px
+}
+
+label, .form-type p {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--color-bluei);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a8dadc;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+  margin-right: 5px;
+}
+
+#submit {
+  background-color: var(--color-bluei);
+  color: var(--color-white);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+#submit:hover {
+  background-color: var(--color-lightblue); 
+}
+
+@media (max-width: 600px){
+  .container {
+    padding: 20px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+@media (max-width: 300px){
+  #title {
+    font-size: 24px;
+  }
+  #description {
+    display: none;
+  }
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder
+  {
+    color: transparent;
+  }
+}
+@media (max-width: 300px) {
+  .form-type label[for="male"],
+  .form-type label[for="female"],
+  .form-type label[for="english"],
+  .form-type label[for="maths"],
+  .form-type label[for="science"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
